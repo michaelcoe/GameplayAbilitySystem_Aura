@@ -46,6 +46,9 @@ public:
 
 	/** Broadcast initial values to the widgets */
 	virtual void BroadcastInitialValues();
+	
+	/** Bind callbacks to Widgets */
+	virtual void BindCallbacksToDependencies();
 
 protected:
 	/** These are the variables that the controller gets the
